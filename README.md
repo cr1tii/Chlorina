@@ -1,2 +1,2 @@
-# project Chlorina
-done posting through April, or may
+# posted Sa6 update,
+more updates are coming 
