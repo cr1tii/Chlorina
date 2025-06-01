@@ -1,3 +1,0 @@
-import infoData
-
-infoData.main()
