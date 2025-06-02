@@ -13,7 +13,7 @@ class att:
   @staticmethod
   def as1dorun():
     c1 = Console()
-    x0 = pyfiglet.figlet_format("SA6",font="big")
+    x0 = pyfiglet.figlet_format("SA6",font="slant")
     c1.print(x0,style="pink1")
     c1.print("\nwelcome to SA6.")
     c1.print("\n powered by CyberTale. ",style="color(8)")
@@ -149,10 +149,12 @@ while True:
   # 4 command in list menu
   elif int1 == '4':
       print("\n")
+      cc = Console()
+      x1 = pyfiglet.figlet_format("Chlorine",font="big")
+      cc.print(x1,style="color(94)")
       msg = """
       Chlorine is a chemical element with the symbol Cl and atomic number 17. It belongs to the halogen group in the periodic table and is a yellow-green gas with a strong, pungent odor. It is used for water disinfection, the production of plastics like PVC, and various chemical industries.
       """
-      cc = Console()
       cc.print(msg, style="bold")
       print("\n")
 
