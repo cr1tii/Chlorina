@@ -80,6 +80,10 @@ while True:
                             break
                 elif inp5 == str(3):
                     while True:
+                        lis = ["non-metal","noble gas","alkali metal","alkali metal earth","metaloid","halogen","post-transtion metal","transtion metal","lanthanide","to exit"]
+                        for index, item in enumerate(lis,start=1):
+                            print(index, item)
+                        
                         console.print("search  Type!:",end=" ",style="bold color(94)")
                         inp8 = input()
                         k3 = my_list.FilterType(inp8)
