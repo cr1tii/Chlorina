@@ -3,7 +3,7 @@ from rich.console import Console
 # first we set a list of the elements types
 
 def ret():
-    lis = ["non-metal","noble gas","alkali metal","alkali metal earth","metaloid","halogen","post-transtion metal","transtion metal","lanthanide","to exit"]
+    lis = ["non-metal","noble gas","alkali metal","alkali earth metal","metaloid","halogen","post-transtion metal","transtion metal","lanthanide","to exit"]
     for index, item in enumerate(lis,start=1):
         print(index, item)
 
