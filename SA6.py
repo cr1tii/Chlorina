@@ -35,7 +35,7 @@ while True:
   print('5. about the app')
   print('6. to exit')
   print("\n\n\n")
-  print(' ask what you like sir?')
+  print(' ask what you like ')
   
   #i1 list table
 
