@@ -80,9 +80,10 @@ while True:
                             break
                 elif inp5 == str(3):
                     while True:
-                        lis = ["non-metal","noble gas","alkali metal","alkali earth metal","metaloid","halogen","post-transtion metal","transtion metal","lanthanide","to exit"]
+                        lis = ["non-metal","noble gas","alkali metal","alkali earth metal","metaloid","halogen","post-transtion metal","transtion metal","lanthanide","or type q to exit "]
                         for index, item in enumerate(lis,start=1):
                             print(index, item)
+                            
                         
                         console.print("search  Type!:",end=" ",style="bold color(94)")
                         inp8 = input()
